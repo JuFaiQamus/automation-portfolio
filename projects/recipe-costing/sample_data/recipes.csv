@@ -1,0 +1,30 @@
+dish,ingredient,qty,unit,yield_pct
+Chicken Bowl,Chicken breast,150,g,85
+Chicken Bowl,Rice,120,g,100
+Chicken Bowl,Black beans,80,g,100
+Chicken Bowl,Avocado,60,g,70
+Chicken Bowl,Lime,10,g,100
+Chicken Bowl,Olive oil,10,ml,100
+Thigh Bowl,Chicken thigh,160,g,80
+Thigh Bowl,Rice,120,g,100
+Thigh Bowl,Tomato,60,g,95
+Thigh Bowl,Lime,10,g,100
+Thigh Bowl,Olive oil,10,ml,100
+Avocado Veggie Bowl,Avocado,120,g,70
+Avocado Veggie Bowl,Rice,120,g,100
+Avocado Veggie Bowl,Black beans,80,g,100
+Avocado Veggie Bowl,Tomato,60,g,95
+Avocado Veggie Bowl,Lettuce,40,g,85
+Avocado Veggie Bowl,Lime,10,g,100
+Loaded Chicken Bowl,Chicken breast,200,g,85
+Loaded Chicken Bowl,Avocado,120,g,70
+Loaded Chicken Bowl,Rice,150,g,100
+Loaded Chicken Bowl,Black beans,100,g,100
+Loaded Chicken Bowl,Olive oil,15,ml,100
+Green Smoothie,Spinach,60,g,90
+Green Smoothie,Banana,1,pza,100
+Green Smoothie,Almond milk,300,ml,100
+Chips & Guacamole,Avocado,100,g,70
+Chips & Guacamole,Tortilla chips,80,g,100
+Chips & Guacamole,Tomato,40,g,95
+Chips & Guacamole,Lime,10,g,100
