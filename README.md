@@ -4,7 +4,7 @@ Hi, I'm **JuanMa**, an automation and operations consultant based in Aguascalien
 
 Founder of **QamusDev**, a consultancy focused on automation for restaurants and SMBs.
 
-📍 México · 🗣 English (C1) / Spanish (native) · ✉️ jufaiqamusdev@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/juan-manuel-romo-faisal-b9111a128/)
+📍 México · 🗣 English (professional working proficiency) / Spanish (native) · ✉️ jufaiqamusdev@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/juan-manuel-romo-faisal-b9111a128/)
 
 ## Featured work
 
