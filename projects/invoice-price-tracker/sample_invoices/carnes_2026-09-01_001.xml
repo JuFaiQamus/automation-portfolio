@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE DATA: fictitious, simplified CFDI 4.0 structure. Not a valid fiscal document. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="4.0" Serie="A" Folio="001" Fecha="2026-09-01T10:30:00" TipoDeComprobante="I" Moneda="MXN" SubTotal="2080.00" Total="2080.00">
+  <cfdi:Emisor Rfc="AAA010101AAA" Nombre="CARNES DEMO SA DE CV"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="RESTAURANTE DEMO"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50112000" NoIdentificacion="P-001" Cantidad="20" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="PECHUGA DE POLLO S/H" ValorUnitario="78.000000" Importe="1560.00" ObjetoImp="01"/>
+    <cfdi:Concepto ClaveProdServ="50112000" NoIdentificacion="P-002" Cantidad="10" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="MUSLO DE POLLO" ValorUnitario="52.000000" Importe="520.00" ObjetoImp="01"/>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="23D3A747-7435-5E48-BE20-D3DE987C38DD" FechaTimbrado="2026-09-01T10:31:00"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

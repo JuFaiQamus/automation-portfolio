@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE DATA: fictitious, simplified CFDI 4.0 structure. Not a valid fiscal document. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="4.0" Serie="A" Folio="006" Fecha="2026-09-16T10:30:00" TipoDeComprobante="E" Moneda="MXN" SubTotal="156.00" Total="156.00">
+  <cfdi:Emisor Rfc="AAA010101AAA" Nombre="CARNES DEMO SA DE CV"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="RESTAURANTE DEMO"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50112000" NoIdentificacion="P-001" Cantidad="2" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="NOTA DE CREDITO POLLO" ValorUnitario="78.000000" Importe="156.00" ObjetoImp="01"/>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="786F5754-5BA4-5372-88D7-E5BAEAB8B278" FechaTimbrado="2026-09-16T10:31:00"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

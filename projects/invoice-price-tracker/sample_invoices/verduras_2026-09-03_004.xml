@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- SAMPLE DATA: fictitious, simplified CFDI 4.0 structure. Not a valid fiscal document. -->
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="4.0" Serie="A" Folio="004" Fecha="2026-09-03T10:30:00" TipoDeComprobante="I" Moneda="MXN" SubTotal="1170.00" Total="1170.00">
+  <cfdi:Emisor Rfc="BBB020202BBB" Nombre="VERDURAS DEMO SA DE CV"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="RESTAURANTE DEMO"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="50301600" NoIdentificacion="V-010" Cantidad="15" ClaveUnidad="KGM" Unidad="Kilogramo" Descripcion="AGUACATE HASS" ValorUnitario="62.000000" Importe="930.00" ObjetoImp="01"/>
+    <cfdi:Concepto ClaveProdServ="50301700" NoIdentificacion="V-020" Cantidad="8000" ClaveUnidad="GRM" Unidad="Gramo" Descripcion="LIMON CON SEMILLA" ValorUnitario="0.030000" Importe="240.00" ObjetoImp="01"/>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="6335C068-5F2C-57B7-929B-1EDE498C8D5B" FechaTimbrado="2026-09-03T10:31:00"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
