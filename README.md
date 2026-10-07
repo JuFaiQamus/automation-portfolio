@@ -13,7 +13,7 @@ Founder of **QamusDev**, a consultancy focused on automation for restaurants and
 | [Multi-channel order automation](case-studies/restaurant-order-automation.md) | Case study: WhatsApp, Rappi and Uber Eats orders → LLM parsing → POS, kitchen and customer confirmations | n8n, WhatsApp Cloud API, Whisper, GPT-4o mini, Postgres |
 | [Kitchen ticket printer](projects/kitchen-ticket-printer) | Runnable code: queue-based service that prints tickets on a thermal printer, with failure alerting | Python, PostgreSQL, ESC/POS |
 | [Invoice price tracker](projects/invoice-price-tracker) | Runnable code: reads supplier CFDI XML invoices, tracks ingredient prices and flags increases, with tests | Python, SQLite, XML (CFDI) |
-| [Recipe costing + menu engineering](projects/recipe-costing) | Runnable code: dish food cost with ingredient yields, linked to invoice prices, plus a Star/Plowhorse/Puzzle/Dog menu analysis, with tests | Python, CSV, SQLite |
+| [Recipe costing + menu engineering](projects/recipe-costing) | Runnable code: dish food cost with ingredient yields, linked to invoice prices, plus a Star/Plowhorse/Puzzle/Dog menu analysis, with tests, validated against a real restaurant's costing workbook | Python, CSV, SQLite |
 
 More workflows are on the way. See the roadmap below.
 

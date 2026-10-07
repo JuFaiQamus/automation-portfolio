@@ -6,13 +6,13 @@ Turns three small files (recipes, menu, ingredient prices) into a food-cost repo
 $ python recipe_costing.py --recipes sample_data/recipes.csv --menu sample_data/menu.csv \
       --prices sample_data/prices.csv --target-food-cost 32 --commission 25
 
-Dish                     Price    Cost   FC %   Margin   Net@-25%  Units  Class
-Chicken Bowl            129.00   27.18  21.1    101.82      69.57    320  Star
-Thigh Bowl              109.00   16.98  15.6     92.02      64.77    210  Star
-Avocado Veggie Bowl     119.00   20.26  17.0     98.74      68.99     90  Puzzle
-Loaded Chicken Bowl     159.00   39.08  24.6    119.92      80.17     70  Puzzle
-Green Smoothie           69.00   18.77  27.2     50.23      32.98    150  Plowhorse
-Chips & Guacamole        69.00   14.97  21.7     54.03      36.78     40  Dog
+Dish                             Price    Cost   FC %   Margin   Net@-25%  Units  Class
+Chicken Bowl                    129.00   27.18  21.1    101.82      69.57    320  Star
+Thigh Bowl                      109.00   16.98  15.6     92.02      64.77    210  Star
+Avocado Veggie Bowl             119.00   20.26  17.0     98.74      68.99     90  Puzzle
+Loaded Chicken Bowl             159.00   39.08  24.6    119.92      80.17     70  Puzzle
+Green Smoothie                   69.00   18.77  27.2     50.23      32.98    150  Plowhorse
+Chips & Guacamole                69.00   14.97  21.7     54.03      36.78     40  Dog
 ```
 
 ## How the cost is calculated
@@ -34,6 +34,17 @@ Each dish is classified with the classic Kasavana & Smith matrix, using the comm
 - *High margin* = contribution margin ($ per plate) at or above the sales-weighted average.
 
 Optional flags: `--target-food-cost 32` marks dishes above that food-cost %, and `--commission 25` adds the margin left after a delivery platform's fee.
+
+## Validated against a real restaurant
+
+I ran it on a real restaurant's costing workbook (16 menu items, 138 recipe lines, ingredient prices with yield losses, and sub-recipes such as sauces priced per kg). Every dish cost matched the workbook to the cent (largest difference: 0.00 MXN). Details are kept anonymous; no client data is in this repository.
+
+Running it also surfaced two things in the original workbook that deserved a second look:
+
+- An ingredient bought **by the piece** was entered with a quantity that did not match the recipe book's weight, so that component was most likely under-costed (a small amount per plate, but multiplied across every order).
+- Several liquids were entered in grams against a per-litre price. The script rejects this by design; the workbook silently treated 1 g as 1 ml. I made the 1 g = 1 ml convention explicit in the data.
+
+On the real menu, the `--target-food-cost` flag immediately singled out the few items above a 30 % food cost.
 
 ## Connect it to supplier invoices
 

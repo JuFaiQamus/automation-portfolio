@@ -203,13 +203,13 @@ def money(x):
 
 def print_table(rows, target, commission):
     net_col = f"Net@-{commission:g}%" if commission else None
-    head = f"{'Dish':<22}{'Price':>8}{'Cost':>8}{'FC %':>7}{'Margin':>9}"
+    head = f"{'Dish':<30}{'Price':>8}{'Cost':>8}{'FC %':>7}{'Margin':>9}"
     head += f"{net_col:>11}" if net_col else ""
     head += f"{'Units':>7}  Class"
     print(head)
     for r in rows:
         flag = "!" if r["over_target"] else " "
-        line = f"{r['dish'][:21]:<22}{money(r['price']):>8}{money(r['cost']):>8}"
+        line = f"{r['dish'][:29]:<30}{money(r['price']):>8}{money(r['cost']):>8}"
         line += f"{r['food_cost_pct']:>6.1f}{flag}{money(r['margin']):>9}"
         line += f"{money(r['net_margin']):>11}" if net_col else ""
         line += f"{r['units']:>7}  {r['class']}"
