@@ -4,7 +4,7 @@
 
 **Client profile:** Independent restaurant in Mexico taking orders by WhatsApp and delivery platforms.
 **Role:** Consultant. Discovery, workflow design, implementation, documentation.
-**Status:** <!-- TODO before publishing: set to "In rollout" / "Live since <month>" -->
+**Status:** In rollout
 
 ## Problem
 
