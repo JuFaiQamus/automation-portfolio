@@ -52,10 +52,6 @@ The print queue is consumed by the [kitchen ticket printer](../projects/kitchen-
 - **WhatsApp Cloud API error `133010`** (account not registered): traced to the phone number's connection state in Meta Business Manager, not to the app or token. Documenting the diagnostic order (number state, then WABA/phone-number IDs, then token) saved hours on the second occurrence.
 - **OAuth for Google Sheets on a hosted n8n**: the redirect URI must be registered in Google Cloud Console to match the n8n instance's public URL.
 
-## Results
-
-<!-- TODO: add only real numbers, e.g. orders/day handled, minutes saved per order, error rate. Delete this section if there are none yet. -->
-
 ## Stack
 
 n8n (self-hosted on Railway) · WhatsApp Cloud API (Meta) · OpenAI Whisper + GPT-4o mini · Loyverse API · Google Sheets · PostgreSQL · Python · ESC/POS thermal printing

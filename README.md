@@ -1,10 +1,10 @@
 # Automation Portfolio
 
-Hi, I'm **Majo**, an automation and operations consultant based in Aguascalientes, México. I design and build workflows that remove manual work for small and mid-size businesses, and I run client engagements end to end: diagnostic, design, implementation and handover.
+Hi, I'm **JuanMa**, an automation and operations consultant based in Aguascalientes, México. I design and build workflows that remove manual work for small and mid-size businesses, and I run client engagements end to end: diagnostic, design, implementation and handover.
 
-Co-founder of **QamusDev**, a consultancy focused on automation for restaurants and SMBs.
+Founder of **QamusDev**, a consultancy focused on automation for restaurants and SMBs.
 
-📍 México · 🗣 English (C1) / Spanish (native) · ✉️ <!-- your email --> · 🔗 <!-- LinkedIn URL -->
+📍 México · 🗣 English (C1) / Spanish (native) · ✉️ jufaiqamusdev@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/juan-manuel-romo-faisal-b9111a128/)
 
 ## Featured work
 
