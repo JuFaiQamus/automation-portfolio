@@ -1,0 +1,15 @@
+{
+  "number": "Q-2026-014",
+  "date": "2026-10-20",
+  "valid_until": "2026-11-03",
+  "currency": "MXN",
+  "issuer": {"name": "QamusDev", "contact": "jufaiqamusdev@gmail.com", "accent_color": "#0B1F3A"},
+  "client": {"name": "Sample Client", "company": "Example Co."},
+  "items": [
+    {"description": "Process diagnostic and workflow mapping", "quantity": 1, "unit_price": 4500},
+    {"description": "Automation build (n8n + integrations)", "quantity": 1, "unit_price": 12000},
+    {"description": "Documentation and team handover", "quantity": 2, "unit_price": 1500}
+  ],
+  "discount_pct": 10,
+  "notes": "50% upfront, 50% on delivery. Includes 30 days of support after handover."
+}
